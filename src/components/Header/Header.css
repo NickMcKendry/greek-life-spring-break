@@ -1,0 +1,104 @@
+div.bg-image-container {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+div.slide-1 {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.45),
+      rgba(0, 0, 0, 0.65)
+    ),
+    url(slide1.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+div.slide-2 {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.45),
+      rgba(0, 0, 0, 0.65)
+    ),
+    url(welcome.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+div.slide-3 {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.45),
+      rgba(0, 0, 0, 0.65)
+    ),
+    url(slide3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+div.slide-4 {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.45),
+      rgba(0, 0, 0, 0.65)
+    ),
+    url(concert.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+div.slide-5 {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.45),
+      rgba(0, 0, 0, 0.65)
+    ),
+    url(slide5.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+div.hero-image::before {
+  content: "";
+  background-color: #383838;
+  height: 100%;
+}
+
+img.logo {
+  position: absolute;
+  left: 10px;
+  height: 6rem;
+}
+
+nav {
+  text-align: right;
+  position: absolute !important;
+  right: 0;
+  top: 2rem;
+}
+
+div.nav-container {
+  background-color: #F7F7F7;
+  height: 6rem;
+  width: 100%;
+}
+
+
+
+h1.center-text {
+  padding-top: 12%;
+  transition: all 0.5s ease;
+  align-self: center;
+  color: #11C2F7;
+  font-family: Lato;
+  font-size: 4rem;
+  font-weight: 300;
+  vertical-align: middle;
+}
