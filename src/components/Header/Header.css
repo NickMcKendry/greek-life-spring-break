@@ -47,7 +47,7 @@ div.slide-4 {
       rgba(0, 0, 0, 0.45),
       rgba(0, 0, 0, 0.65)
     ),
-    url(concert.png);
+    url(slide4.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -61,6 +61,30 @@ div.slide-5 {
     ),
     url(slide5.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+div.slide-6 {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.45),
+      rgba(0, 0, 0, 0.65)
+    ),
+    url(slide6.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+div.slide-7 {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.45),
+      rgba(0, 0, 0, 0.65)
+    ),
+    url(slide7.jpg);
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   position: relative;
 }

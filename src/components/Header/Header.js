@@ -74,12 +74,6 @@ export default class Home extends Component {
                 <h1 className="center-text">On Day 7 We love you bye-bye.</h1>
               </div>
             </div>
-            <div
-              className="bg-image-container text-box slide-8">
-              <div className="container">
-                <h1 className="center-text">Pre Order Now to save a spot!</h1>
-              </div>
-            </div>
           </Slider>
       </div>
 
